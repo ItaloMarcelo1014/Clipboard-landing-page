@@ -1,0 +1,435 @@
+/* RESET CSS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    border: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 15px;
+    
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+h2{
+     font-size: 2em;
+}
+.p{
+   
+    max-width: 650px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+
+.block p {
+    text-align: justify;
+}
+
+
+.block h2{
+    font-size: 23px;
+}
+
+
+button{
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 10px 15px 10px 0;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+:root{
+    
+--Strong-Cyan: hsl(171, 66%, 44%);
+--Light-Blue: hsl(233, 100%, 69%);
+
+/*### Neutral*/
+
+--Dark-Grayish-Blue: hsl(210, 10%, 33%);
+--Grayish-Blue: hsl(201, 11%, 66%);
+}
+
+
+/*Header*/
+header{
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/*BTN-colors*/
+
+.btn-green{
+   background-color: var(--Strong-Cyan);
+}
+
+.btn-blue{
+    background-color: var(--Light-Blue);
+}
+
+
+/*Container*/
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+
+#icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 20px 0;
+}
+
+/*INFORMACÃO E INFO  SECTION 1 E 2*/
+
+.informacao{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+.sect1{
+    display: flex;
+    flex-direction: column;
+    width: 98vw;
+    height: 80vh;
+    margin-bottom: 75px;
+}
+
+.left-img{
+    position: relative;
+    left: -25px;
+    top: 75px;
+}
+
+.info-list{
+    width: 45%;
+    margin: 75px 0 75px 0;
+    padding: 50px;
+    
+}
+
+.block{
+    margin: 10px 10px 10px 0;
+    padding: 5px;
+}
+
+.block img{
+    justify-content: center;
+}
+
+.company-place{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1189px;
+    
+}
+.bloco img {
+    padding: 50px;
+}
+
+
+.bloco h4,p {
+    text-align: center;
+}
+
+.bloco p {
+    padding: 5px;
+    margin-left: 10px;
+    width: 375px;
+}
+
+.bloco {  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 339px;
+    height: 200px;
+    padding: 25px;
+    margin-left: 11px;
+}
+
+.bloco:first-child{
+    margin-left: 50px;
+    padding: 15px;
+}
+
+.bl{
+    justify-content: center;
+    width: 224px;
+    margin-top: 50px;
+}
+
+
+.info-list{
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 600px;
+    padding: 0px;
+}
+
+.bloco-space{
+    margin: 0 25px 0 25px;
+}
+
+.bloco .bl {  
+    width: 200px;
+    height: 100px;
+    padding: 5px;
+}
+
+
+h3{
+    margin-bottom: 10px;
+}
+
+.p1{
+    margin-bottom: 75px;
+}
+
+/*RODAPE E SOCIAL ICONS FOOTER*/
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #f5f6f8;
+    height: 150px;
+}
+
+
+
+.social img{
+    margin-left: 125px;
+    
+}
+
+ul{
+   list-style: none;
+   width: 700px;
+   margin-left: 50px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+
+}
+
+li{
+    margin: 10px;
+    padding: 5px;
+    width: 200px;
+    height: 25px;
+}
+
+li a{
+    display: flex;
+    flex-wrap: nowrap;
+    color: #000;
+}
+
+.logo-footer img{
+       justify-content: flex-end;
+       margin: 5px;
+       cursor: pointer;
+}
+
+ 
+.im-color:hover{
+    cursor: pointer;
+    filter: invert(93%) sepia(92%) saturate(543%) hue-rotate(89deg) brightness(87%) contrast(82%);
+}
+
+
+.logo-footer{
+   padding-left: 150px;
+
+}
+ 
+.logo-footer img{
+    color: white;
+ }
+ 
+
+li a:hover{
+    color:var(--Strong-Cyan);
+    transition: all 0.5s ;
+}
+
+@media (max-width: 375px){
+   .container{
+    width: 375px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+
+
+
+   .imagem{
+    width: 250px;
+   }
+
+   
+.informacao{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 25px;
+    width: 325px;
+    margin-bottom: 75px;
+}
+
+
+.left-img{
+    position: relative;
+    left:5px;
+    top: -50px;
+    bottom: 0;
+}
+
+.info-my{
+    margin-top: 150px;
+    margin-left: 15px;
+ 
+}
+
+.info-list{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: -600px;
+    width: 375px;
+    margin-top: 150px;
+    padding: 25px;
+ 
+}
+
+
+.info-txt{
+    margin: 0;
+}
+
+
+.company-place{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 325px;    
+}
+
+
+.company-place p{
+    width: 290px;
+}
+
+.block p{
+    text-align: center;
+  
+}
+
+.bloco{
+    width: 325px;
+    margin: 0;
+    
+}
+
+.bloco:first-child{
+    margin-left: 0;
+    padding: 0;
+}
+
+.p2{
+    margin-left: 25px;
+    width: 250px;
+}
+
+.p3{
+    margin-left: 15px;
+    width: 290px;
+}
+
+.bl{
+    align-items: center;
+    justify-content: center;
+    width: 375px;
+    margin-left: -15px;
+    margin-top: -15px;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    height: 350px;
+}
+
+
+
+ul{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 200px;
+    margin-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+
+
+.social img{
+    margin-left: 10px;
+    
+}
+
+
+li a{
+    justify-content: center;
+}
+
+.logo-footer{
+    padding-top: 10px;
+    padding-left: 0;
+ }
+ 
+
+button{
+  margin: 5px;   
+}
+}
